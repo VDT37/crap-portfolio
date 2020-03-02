@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> crap-portfolio </title>
-  </head>
-  <body>
+<html>
+	<head>
+		<meta charset="utf=8"/>
+		<title> Website Layout Basics </title>
+		<link rel="stylesheet" href="Website.css"/>
+	</head>
 
-  </body>
+	<body>
+		<div class="container">
+			<header>
+				<img src="logo.png" alt="Logo Area" class="logo"/>
+				<nav class="top_nav">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="http://www.iiitg.ac.in">Institute</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="clear"></div>
+
+			<section class="left_side">
+				<article>
+					<header>
+						<h2> This is an Article Header!! </h2>
+						<h3> This is a Sub-Header! </h3>
+					</header>
+					<p> This is  Para 1 </p>
+					<p> This is  Para 2 </p>
+					<footer>
+						- Written by VDT
+					</footer>
+				</article>
+			</section>
+
+			<aside class="right_side">
+				<div>
+					<h2> Social Links </h2>
+					<ul>
+						<li> <a href="https://www.facebook.com">Facebook<a> </li>
+						<li> <a href="https://www.tumblr.com">Twitter<a> </li>
+						<li> <a href="https://twitter.com/home">Tumblr<a> </li>
+						<li> <a href="https://www.instagram.com">Instagram<a> </li>
+					</ul>
+				</div>
+				<div>
+					<h2> Related Articles </h2>
+					<article>
+						<header>
+							<h3> This can be a Heading to another Story </h3>
+						</header>
+						<p> Get intersted and click see more </p>
+						<footer>
+							<a href="">See More<a>
+						</footer>
+					</article>
+				</div>
+			</aside>
+
+			<footer class="page_footer">
+				<!-- If u don't want to put anything in the footer bar then that's where Copyright goes -->
+				&copy; Copyright youtube.com
+			</footer>
+		</div>
+	</body>
 </html>
